@@ -1,0 +1,94 @@
+:root {
+	--background: #f2fcf0;
+	--accent: ;
+	--bold-text: ;
+	--main-text: ;
+	--headings: ;
+	--shadow: #b0bec5;
+
+	--website-width: 1440px;
+	--mobile-width: 375px;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	box-sizing: border-box;
+	background: var(--background);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.table {
+	width: 95%;
+	/* height: 500px; */
+	max-width: var(--website-width);
+	background-image: url(./engin-akyurt-HEMIBJ8QQuA-unsplash.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	box-shadow: 0px 2px 8px 0px var(--shadow);
+	margin-top: 4rem;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.container {
+	width: 10rem;
+	height: 17rem;
+}
+
+.card {
+	height: 100%;
+	width: 100%;
+	padding: 0.5em;
+	position: relative;
+	border: 2px solid white;
+	font-size: 8rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0.5rem;
+	background: #f2fcf0;
+	color: #000;
+	box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+	user-select: none;
+}
+
+.suite-top-left {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 2rem;
+}
+.suite-bottom-left {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-size: 2rem;
+}
+.suite-top-right {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 2rem;
+}
+
+.suite-bottom-right {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 2rem;
+}
