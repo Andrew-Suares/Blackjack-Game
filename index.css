@@ -24,10 +24,18 @@ html {
 
 body {
 	box-sizing: border-box;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 400;
 	background: var(--background);
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+h1 {
+	font-size: 6rem;
+	font-weight: 700;
 }
 
 .table {
